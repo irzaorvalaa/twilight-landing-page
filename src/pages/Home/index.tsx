@@ -20,14 +20,12 @@ const Home = () => {
         type="right"
         title={IntroContent.title}
         content={IntroContent.text}
-        button={IntroContent.button}
         icon="developer.svg"
         id="intro"
       />
       <MiddleBlock
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
-        button={MiddleBlockContent.button}
       />
       <ContentBlock
         type="left"
