@@ -46,59 +46,21 @@ const Footer = ({ t }: any) => {
       <FooterSection>
         <Container>
           <Row justify="space-between">
-            
-           
-           
-          </Row>
-          <Row justify="space-between">
-           
             <Col lg={8} md={8} sm={12} xs={12}>
-            <Language>{t("Address")}</Language>
+              <Language>{t("Address")}</Language>
               <Para>Rancho Santa Margarita</Para>
               <Para>2131 Elk Street</Para>
               <Para>California</Para>
-              
-            </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
-              <Label htmlFor="select-lang">{t("Language")}</Label>
-              <LanguageSwitchContainer>
-                <LanguageSwitch onClick={() => handleChange("en")}>
-                  <SvgIcon
-                    src="us.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch>
-                <LanguageSwitch onClick={() => handleChange("es")}>
-                  <SvgIcon
-                    src="ind.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch>
-              </LanguageSwitchContainer>
             </Col>
           </Row>
-        </Container>
-      </FooterSection>
-      <Extra>
-        <Container border={true}>
+
           <Row
             justify="space-between"
             align="middle"
             style={{ paddingTop: "3rem" }}
           >
             <NavLink to="/">
-              <LogoContainer>
-                <SvgIcon
-                  src="logo.svg"
-                  aria-label="homepage"
-                  width="101px"
-                  height="64px"
-                />
-              </LogoContainer>
+              <LogoContainer>© 2022 Twilight teams.</LogoContainer>
             </NavLink>
             <FooterContainer>
               <SocialLink
@@ -117,16 +79,10 @@ const Footer = ({ t }: any) => {
                 href="https://medium.com/@lashakakabadze/"
                 src="medium.svg"
               />
-              <a href="https://www.buymeacoffee.com/adrinlol">
-                <img
-                  src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=adrinlol&button_colour=FF5F5F&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"
-                  alt="Buy me a pizza"
-                />
-              </a>
             </FooterContainer>
           </Row>
         </Container>
-      </Extra>
+      </FooterSection>
     </>
   );
 };

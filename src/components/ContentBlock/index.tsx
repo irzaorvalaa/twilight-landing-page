@@ -1,5 +1,6 @@
 import LeftContentBlock from "./LeftContentBlock";
 import RightContentBlock from "./RightContentBlock";
+import { withTranslation } from "react-i18next";
 import { ContentBlockProps } from "./types";
 
 const ContentBlock = (props: ContentBlockProps) => {
@@ -8,4 +9,4 @@ const ContentBlock = (props: ContentBlockProps) => {
   return null;
 };
 
-export default ContentBlock;
+export default withTranslation()(ContentBlock);
