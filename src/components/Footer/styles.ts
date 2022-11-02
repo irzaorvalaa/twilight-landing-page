@@ -46,7 +46,7 @@ export const LogoContainer = styled("div")`
 export const Para = styled("div")`
   color: #18216d;
   font-size: 14px;
-  width: 70%;
+  width: 100%;
 `;
 
 export const Large = styled(Link)<any>`
@@ -135,7 +135,13 @@ export const Language = styled("h4")`
     padding: 1.5rem 0;
   }
 `;
+export const Twilight = styled("h4")`
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #18216d;
 
+
+`;
 export const Label = styled("label")`
   font-size: 22px;
   text-transform: capitalize;
