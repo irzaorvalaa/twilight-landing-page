@@ -29,19 +29,20 @@ const Footer = ({ t }: any) => {
               <Para>No 55-56</Para>
               <Para>Jakarta Utara</Para>
             </Col>  
+          
           </Row>
-          </Container>
+         
+          
           <Row
             justify="center"
-            align="middle"
-            style={{ paddingTop: "3rem" }}
+            style={{ paddingTop: "2rem" }}
           >
              <LogoContainer>
              <Twilight>{t("Copyright © 2022. Twilight Teams. All Rights Reserved.")}</Twilight>
               </LogoContainer>
       
             </Row>
-        
+            </Container>
           </FooterSection>  
              
     </>
