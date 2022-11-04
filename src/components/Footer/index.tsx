@@ -24,11 +24,10 @@ const Footer = ({ t }: any) => {
           <Row justify="space-between">
             <Col lg={4} >
               <Language>{t("Address")}</Language>
-              <Para>Patra Jasa Office Tower</Para>
-              <Para>17th Floor</Para>
-              <Para>Jl. Gatot Subroto, Kuningan</Para>
-              <Para>Setia Budi, Jakarta Selatan</Para>
-              <Para>12950</Para>
+              <Para>Komplek Ruko Puri Mutiara</Para>
+              <Para>Blok A</Para>
+              <Para>No 55-56</Para>
+              <Para>Jakarta Utara</Para>
             </Col>  
           </Row>
           </Container>
