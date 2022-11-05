@@ -31,7 +31,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
     <Row>
     <Col xs={24} xl={8} style={{ paddingLeft: "0rem" }}>
     <Slide direction="left">
-  <ImgIcon src="irzacontact.png" width="350px" height="323px" />
+  <ImgIcon src="newnew.png" width="350px" height="323px" />
   <CardContent>
     <Typography gutterBottom variant="h5" marginLeft={8} component="div">
     Irza Orvala Alfandi
