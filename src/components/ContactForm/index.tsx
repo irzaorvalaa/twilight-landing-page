@@ -1,21 +1,15 @@
-import { Row, Col, Divider } from "antd";
+import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
 import { Slide } from "react-awesome-reveal";
 import { ContactProps } from "./types";
-import { SvgIcon } from "../../common/SvgIcon";
 import { ImgIcon } from "../../common/ImgIcon";
-import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import Block from "../Block";
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import MailIcon from '@mui/icons-material/Mail';
 import Typography from '@mui/material/Typography';
-import Grid from '@mui/material/Grid';
-import Paper from '@mui/material/Paper';
-import Box from '@mui/material/Box';
 
 
 import { ContactContainer, Para, } from "./styles";
@@ -192,51 +186,4 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
 
 export default withTranslation()(Contact);
 
- {/* <Slide direction="right">
-          <SvgIcon src="developer.svg" width="350px" height="150px" />
-          <Card sx={{ maxWidth: 345 }}>
-        
-      <CardContent>
-        <Typography gutterBottom variant="h5" marginLeft={10} component="div">
-        Maris Khairah
-        </Typography>
-        <Typography variant="h6" marginLeft={11}>
-
-
-        </Typography>
-        <Para>
-        Monday-Friday (09.00 - 17.00)
-        </Para>
-      </CardContent>
-      <CardActions>
-        
-      <Row justify="space-between" align="middle"   style={{ paddingLeft: "3.7rem" }}>
-      <Col lg={3}>
-
-        <Button href="tel:081314091239"> 
-        <LocalPhoneIcon>
-        </LocalPhoneIcon>
-        </Button>
-        </Col>
-
-
-        <Col lg={3}>
-        <Button href="https://api.whatsapp.com/send?phone=081314091239"> 
-        <WhatsAppIcon>
-        </WhatsAppIcon>
-        </Button>
-        </Col>
-
-
-        <Col lg={3}>
-        <Button href="mailto:orvala9@gmail.com"> 
-        <MailIcon>
-        </MailIcon>
-        </Button>
-        </Col>
-
-
-              </Row>
-             </CardActions>
-            </Card>
-           </Slide> */}
+ 
