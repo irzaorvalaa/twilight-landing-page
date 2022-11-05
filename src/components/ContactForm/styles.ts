@@ -17,6 +17,13 @@ export const FormGroup = styled("form")`
     margin-top: 2rem;
   }
 `;
+export const Para = styled("div")`
+  color: #18216d;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+`;
+
 
 export const Span = styled("span")<any>`
   display: block;

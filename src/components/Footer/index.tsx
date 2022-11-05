@@ -29,6 +29,8 @@ const Footer = ({ t }: any) => {
               <Para>No 55-56</Para>
               <Para>Jakarta Utara</Para>
             </Col>  
+
+            
           
           </Row>
          
