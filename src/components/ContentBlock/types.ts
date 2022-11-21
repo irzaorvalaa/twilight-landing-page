@@ -3,6 +3,7 @@ export interface ContentBlockProps {
   title: string;
   content: string;
   section?: any;
+  bagian?: any;
   button?: any;
   t?: any;
   id: string;

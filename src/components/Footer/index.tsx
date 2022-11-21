@@ -1,6 +1,5 @@
 import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
-
 import Container from "../../common/Container";
 import {
   FooterSection,
@@ -10,13 +9,7 @@ import {
   Language
 } from "./styles";
 
-
-
 const Footer = ({ t }: any) => {
-  
-
- 
-
   return (
     <>
       <FooterSection>
@@ -24,17 +17,13 @@ const Footer = ({ t }: any) => {
           <Row justify="space-between">
             <Col lg={4} >
               <Language>{t("Address")}</Language>
-              <Para>Komplek Ruko Puri Mutiara</Para>
+              <Para>Komplek Royal Palace Saharjo</Para>
               <Para>Blok A</Para>
               <Para>No 55-56</Para>
-              <Para>Jakarta Utara</Para>
-            </Col>  
-
-            
-          
+              <Para>Jakarta Selatan</Para>
+            </Col> 
           </Row>
-         
-          
+    
           <Row
             justify="center"
             style={{ paddingTop: "2rem" }}
