@@ -29,7 +29,7 @@ const Footer = ({ t }: any) => {
             style={{ paddingTop: "2rem" }}
           >
              <LogoContainer>
-             <Twilight>{t("Copyright © 2022. Twilight Teams. All Rights Reserved.")}</Twilight>
+             <Twilight>{t("Copyright © 2023. Twilight Teams. All Rights Reserved.")}</Twilight>
               </LogoContainer>
       
             </Row>
